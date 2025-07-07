@@ -4,7 +4,7 @@ muban.mxpro.二级.desc = '.module-info-item:eq(-1)&&Text;;;.module-info-item-co
 var rule = {
     title: '555影视[飞]',
     模板: 'mxpro',
-    host: 'https://www.5m1o0y8l1f1.shop',
+    host: 'https://www.55f9w1e9r3.shop',
     hostJs: 'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,".row:eq(1)&&a&&href");print(src);HOST=src',
     url: '/vodshow/fyfilter.html',
     filterable: 1,//是否启用分类筛选,
