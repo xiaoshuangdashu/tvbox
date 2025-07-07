@@ -4,9 +4,9 @@ muban.首图2.二级.tabs = '.nav.nav-tabs&&li';
 var rule = {
 	title:'539影视',
 	模板:'首图2',
-	host:'https://539539.xyz',
-	// url:'/vodshow/fyclass/page/fypage.html',
-	url:'/vodshow/fyfilter.html',
+	host:'https://www.sanmahoist.com',
+	// url:'/vodshow/fyclass/page/fypage.html',/mo-rs0oz/57fyclass/1
+	url:'/mo-rs0oz/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
 	filter_url:'{{fl.cateId}}{{fl.area}}{{fl.by}}{{fl.class}}{{fl.lang}}/page/fypage{{fl.year}}',
 	filter:{
