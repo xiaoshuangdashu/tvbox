@@ -1,26 +1,9 @@
-muban.首图2.二级.desc = '.data:eq(0)&&Text;;;.data--span:eq(2)&&Text;.data--span:eq(1)&&Text';
-muban.首图2.二级.tabs = '.stui-pannel__head h3';
-var rule={
-	title:'8号影院',
-	模板:'首图2',
-	//host:'http://www.8hysw.com',
-	host:'https://www.bahaotv.com',
-	// url:'/frim/fyclass-fypage.html',
-	url:'/cn/fyfilter.html',
-	filterable:1,//是否启用分类筛选,
-	filter_url:'{{fl.cateId}}-fypage',
-	filter: {
-		"1":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"1"},{"n":"动作","v":"5"},{"n":"爱情","v":"6"},{"n":"科幻","v":"7"},{"n":"恐怖","v":"8"},{"n":"喜剧","v":"10"},{"n":"剧情","v":"12"},{"n":"在线直播","v":"28"}]}],
-		"2":[{"key":"cateId","name":"分类","value":[{"n":"全部","v":"2"},{"n":"国产剧","v":"13"},{"n":"港台剧","v":"14"},{"n":"欧美剧","v":"15"},{"n":"日韩剧","v":"16"}]}]
-	},
-	filter_def:{
-		1:{cateId:'1'},
-		2:{cateId:'2'},
-		3:{cateId:'3'},
-		4:{cateId:'4'}
-	},
-	searchUrl:'/search.php?page=fypage&searchword=**&searchtype=',
-	// class_parse: '.stui-header__menu li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
-	class_parse: '.type-slide li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
-	搜索:muban.首图2.搜索2,
-}
+{"导演": "裁缝大叔",
+      "简介": "裁缝提醒您,请勿相信影片中的广告，以免上当受骗！+class=\"detail-sketch\">&&</span>",
+        "线路标题": "快手号济宁裁缝大叔专线",
+        "副标题": "裁缝在线+module-item-note&&</div>",
+        "线路数组": "module-tab-item tab-item\" data-dropdown-value=&&</div>",
+        "分类url": "https://www.bahaotv.com/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
+        "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#战争片$12#动漫片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43"
+      }
