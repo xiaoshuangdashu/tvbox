@@ -1,10 +1,10 @@
-// 搜索验证
+// 搜索验证https://www.bzhanyy.com/type/tv.html
 var rule = {
-    title: 'B站影视',
+    title: 'B站影视',/type/
     // host:'https://bzhanys.com',
     host: 'https://bzhanyy.com',
     // url:'/index.php/vod/show/id/fyclass/page/fypage.html',
-    url: '/index.php/vod/show/id/fyfilter.html',
+    url: '/type/fyfilter.html',
     // url:'/api.php/xiao/vod?type=fyclass&page=fypage&limit=24',
     filterable: 1,//是否启用分类筛选,
     filter_url: '{{fl.cateId}}{{fl.area}}{{fl.by or "/by/time"}}{{fl.class}}/page/fypage{{fl.year}}',
