@@ -1,5 +1,5 @@
  {
-  "简介": "裁缝大叔提醒您,请勿相信影片中的广告，以免上当受骗！+剧情：</span><div class=\"video-info-item video-info-content vod_content\">&&</span>",
+  "简介": "裁缝大叔提醒您,请勿相信影片中的广告，以免上当受骗！+剧情：</span><div class=\"hl-text-muted\">&&</span>",
         "导演": "裁缝大叔TV",
         "主演": "主演：&&</a>",
         "线路标题": "快手号济宁裁缝大叔专线",
