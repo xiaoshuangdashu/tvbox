@@ -1,13 +1,403 @@
-muban.首图.二级.title = 'h1&&Text;.data--span:eq(0)&&Text';
-muban.首图.二级.desc = '.score&&Text;;;.data--span:eq(2)&&Text;.data--span:eq(3)&&Text';
-muban.首图.二级.content = '.sketch&&Text';
-var rule = {
-	title:'1080P',
-	模板:'首图',
-	host:'https://1080p.tv',
-	url:'/vodshow/fyclassfyfilter/',
-	filterable:1,//是否启用分类筛选,
-	filter_url:'-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}-{{fl.letter}}---fypage---{{fl.year}}',
-	filter: {"1":[{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"喜剧","v":"喜剧"},{"n":"动作","v":"动作"},{"n":"爱情","v":"爱情"},{"n":"惊悚","v":"惊悚"},{"n":"犯罪","v":"犯罪"},{"n":"恐怖","v":"恐怖"},{"n":"冒险","v":"冒险"},{"n":"科幻","v":"科幻"},{"n":"悬疑","v":"悬疑"},{"n":"剧情","v":"剧情"},{"n":"动画","v":"动画"},{"n":"武侠","v":"武侠"},{"n":"战争","v":"战争"},{"n":"歌舞","v":"歌舞"},{"n":"奇幻","v":"奇幻"},{"n":"传记","v":"传记"},{"n":"警匪","v":"警匪"},{"n":"历史","v":"历史"},{"n":"运动","v":"运动"},{"n":"灾难","v":"灾难"},{"n":"西部","v":"西部"},{"n":"魔幻","v":"魔幻"},{"n":"枪战","v":"枪战"},{"n":"记录","v":"记录"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"},{"n":"香港","v":"香港"},{"n":"台湾","v":"台湾"},{"n":"美国","v":"美国"},{"n":"法国","v":"法国"},{"n":"英国","v":"英国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"德国","v":"德国"},{"n":"泰国","v":"泰国"},{"n":"印度","v":"印度"},{"n":"意大利","v":"意大利"},{"n":"西班牙","v":"西班牙"},{"n":"加拿大","v":"加拿大"},{"n":"其他","v":"其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"2006","v":"2006"},{"n":"2005","v":"2005"},{"n":"2004","v":"2004"}]},{"key":"lang","name":"语言","value":[{"n":"全部","v":""},{"n":"国语","v":"国语"},{"n":"英语","v":"英语"},{"n":"粤语","v":"粤语"},{"n":"闽南语","v":"闽南语"},{"n":"韩语","v":"韩语"},{"n":"日语","v":"日语"},{"n":"法语","v":"法语"},{"n":"德语","v":"德语"},{"n":"其它","v":"其它"}]},{"key":"letter","name":"字母","value":[{"n":"全部","v":""},{"n":"A","v":"A"},{"n":"B","v":"B"},{"n":"C","v":"C"},{"n":"D","v":"D"},{"n":"E","v":"E"},{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}]},{"key":"by","name":"排序","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"2":[{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"古装","v":"古装"},{"n":"战争","v":"战争"},{"n":"青春偶像","v":"青春偶像"},{"n":"喜剧","v":"喜剧"},{"n":"家庭","v":"家庭"},{"n":"犯罪","v":"犯罪"},{"n":"动作","v":"动作"},{"n":"奇幻","v":"奇幻"},{"n":"剧情","v":"剧情"},{"n":"历史","v":"历史"},{"n":"经典","v":"经典"},{"n":"乡村","v":"乡村"},{"n":"情景","v":"情景"},{"n":"商战","v":"商战"},{"n":"网剧","v":"网剧"},{"n":"其他","v":"其他"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"},{"n":"韩国","v":"韩国"},{"n":"香港","v":"香港"},{"n":"台湾","v":"台湾"},{"n":"日本","v":"日本"},{"n":"美国","v":"美国"},{"n":"泰国","v":"泰国"},{"n":"英国","v":"英国"},{"n":"新加坡","v":"新加坡"},{"n":"其他","v":"其他"},{"n":"香港地区","v":"香港地区"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"2006","v":"2006"},{"n":"2005","v":"2005"},{"n":"2004","v":"2004"}]},{"key":"lang","name":"语言","value":[{"n":"全部","v":""},{"n":"国语","v":"国语"},{"n":"英语","v":"英语"},{"n":"粤语","v":"粤语"},{"n":"闽南语","v":"闽南语"},{"n":"韩语","v":"韩语"},{"n":"日语","v":"日语"},{"n":"其它","v":"其它"}]},{"key":"letter","name":"字母","value":[{"n":"全部","v":""},{"n":"A","v":"A"},{"n":"B","v":"B"},{"n":"C","v":"C"},{"n":"D","v":"D"},{"n":"E","v":"E"},{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}]},{"key":"by","name":"排序","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"3":[{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"番剧","v":"番剧"},{"n":"热血","v":"热血"},{"n":"科幻","v":"科幻"},{"n":"推理","v":"推理"},{"n":"搞笑","v":"搞笑"},{"n":"冒险","v":"冒险"},{"n":"校园","v":"校园"},{"n":"动作","v":"动作"},{"n":"机战","v":"机战"},{"n":"运动","v":"运动"},{"n":"战争","v":"战争"},{"n":"少年","v":"少年"},{"n":"少女","v":"少女"},{"n":"社会","v":"社会"},{"n":"原创","v":"原创"},{"n":"亲子","v":"亲子"},{"n":"益智","v":"益智"},{"n":"励志","v":"励志"},{"n":"其他","v":"其他"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"},{"n":"日本","v":"日本"},{"n":"欧美","v":"欧美"},{"n":"其他","v":"其他"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"2007","v":"2007"},{"n":"2006","v":"2006"},{"n":"2005","v":"2005"},{"n":"2004","v":"2004"}]},{"key":"lang","name":"语言","value":[{"n":"全部","v":""},{"n":"国语","v":"国语"},{"n":"英语","v":"英语"},{"n":"粤语","v":"粤语"},{"n":"闽南语","v":"闽南语"},{"n":"韩语","v":"韩语"},{"n":"日语","v":"日语"},{"n":"其它","v":"其它"}]},{"key":"letter","name":"字母","value":[{"n":"全部","v":""},{"n":"A","v":"A"},{"n":"B","v":"B"},{"n":"C","v":"C"},{"n":"D","v":"D"},{"n":"E","v":"E"},{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}]},{"key":"by","name":"排序","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}],"4":[{"key":"class","name":"剧情","value":[{"n":"全部","v":""},{"n":"真人秀","v":"真人秀"},{"n":"访谈","v":"访谈"},{"n":"情感","v":"情感"},{"n":"选秀","v":"选秀"},{"n":"旅游","v":"旅游"},{"n":"美食","v":"美食"},{"n":"口秀","v":"口秀"},{"n":"曲艺","v":"曲艺"},{"n":"搞笑","v":"搞笑"},{"n":"游戏","v":"游戏"},{"n":"歌舞","v":"歌舞"},{"n":"生活","v":"生活"},{"n":"音乐","v":"音乐"},{"n":"时尚","v":"时尚"},{"n":"益智","v":"益智"},{"n":"职场","v":"职场"},{"n":"少儿","v":"少儿"},{"n":"纪实","v":"纪实"},{"n":"盛会","v":"盛会"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"},{"n":"韩国","v":"韩国"},{"n":"香港","v":"香港"},{"n":"台湾","v":"台湾"},{"n":"美国","v":"美国"},{"n":"其它","v":"其它"}]},{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"2019","v":"2019"},{"n":"2018","v":"2018"},{"n":"2017","v":"2017"},{"n":"2016","v":"2016"},{"n":"2015","v":"2015"},{"n":"2014","v":"2014"},{"n":"2013","v":"2013"},{"n":"2012","v":"2012"},{"n":"2011","v":"2011"},{"n":"2010","v":"2010"},{"n":"2009","v":"2009"},{"n":"2008","v":"2008"},{"n":"2007","v":"2007"},{"n":"2006","v":"2006"},{"n":"2005","v":"2005"},{"n":"2004","v":"2004"}]},{"key":"lang","name":"语言","value":[{"n":"全部","v":""},{"n":"国语","v":"国语"},{"n":"英语","v":"英语"},{"n":"粤语","v":"粤语"},{"n":"闽南语","v":"闽南语"},{"n":"韩语","v":"韩语"},{"n":"日语","v":"日语"},{"n":"其它","v":"其它"}]},{"key":"letter","name":"字母","value":[{"n":"全部","v":""},{"n":"A","v":"A"},{"n":"B","v":"B"},{"n":"C","v":"C"},{"n":"D","v":"D"},{"n":"E","v":"E"},{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}]},{"key":"by","name":"排序","value":[{"n":"时间","v":"time"},{"n":"人气","v":"hits"},{"n":"评分","v":"score"}]}]},
-	class_parse: '.myui-header__menu li.hidden-sm;a&&Text;a&&href;.*/(\\d+)/',
-}
+# -*- coding: utf-8 -*-
+# by @嗷呜
+import sys
+from urllib.parse import urlparse
+sys.path.append("..")
+import re
+import hashlib
+import hmac
+import random
+import string
+from Crypto.Util.Padding import unpad
+from concurrent.futures import 
+
+ThreadPoolExecutor
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import PKCS1_v1_5, AES
+from base64 import b64encode, b64decode
+import json
+import time
+from base.spider import Spider
+
+
+class Spider(Spider):
+
+    def init(self, 
+
+extend=""):
+        self.device = self.device_id()
+        self.host = self.gethost()
+        pass
+
+    def getName(self):
+        pass
+
+    def isVideoFormat(self, url):
+        pass
+
+    def manualVideoCheck(self):
+        pass
+
+    def action
+
+(self, action):
+        pass
+
+    def destroy(self):
+        pass
+
+    def homeContent(self, filter):
+        result = {}
+        filters = {}
+        classes = []
+        bba = self.url()
+        data = self.fetch
+
+(f"{self.host}/api/v1/app/config?pack={bba[0]}&signature={bba[1]}", headers=self.header()).text
+        data1 = self.aes(data)
+        dy = {"class": "类型", "area": "地区", "lang": "语言", "year": "年份", "letter": "字母", "by": "排
+
+序",
+              "sort": "排序"}
+        data1['data']['movie_screen']['sort'].pop(0)
+        for item in data1['data']['movie_screen']['sort']:
+            item['n'] = item.pop('name')
+            item['v'] = item.pop('value')
+        
+
+for item in data1['data']['movie_screen']['filter']:
+            has_non_empty_field = False
+            classes.append({"type_name": item["name"], "type_id": str(item["id"])})
+            for key in dy:
+                if key in item 
+
+and item[key]:
+                    has_non_empty_field = True
+                    break
+            if has_non_empty_field:
+                filters[str(item["id"])] = []
+                filters[str(item["id"])].append(
+                    
+
+{"key": 'sort', "name": '排序', "value": data1['data']['movie_screen']['sort']})
+                for dkey in item:
+                    if dkey in dy and item[dkey]:
+                        item[dkey].pop(0)
+                        
+
+value_array = [
+                            {"n": value.strip(), "v": value.strip()}
+                            for value in item[dkey]
+                            if value.strip() != ""
+                        ]
+                        
+
+filters[str(item["id"])].append(
+                            {"key": dkey, "name": dy[dkey], "value": value_array}
+                        )
+        result["class"] = classes
+        result["filters"] = filters
+        return result
+
+    
+
+def homeVideoContent(self):
+        bba = self.url()
+        url = f'{self.host}/api/v1/movie/index_recommend?pack={bba[0]}&signature={bba[1]}'
+        data = self.fetch(url, headers=self.header()).json()
+        videos = []
+        for 
+
+item in data['data']:
+            if len(item['list']) > 0:
+                for it in item['list']:
+                    try:
+                        videos.append(self.voides(it))
+                    except Exception as e:
+                
+
+        continue
+        result = {"list": videos}
+        return result
+
+    def categoryContent(self, tid, pg, filter, extend):
+        body = {"type_id": tid, "sort": extend.get("sort", "by_default"), "class": extend.get("class", "类
+
+型"),
+                "area": extend.get("area", "地区"), "year": extend.get("year", "年份"), "page": str(pg),
+                "pageSize": "21"}
+        result = {}
+        list = []
+        bba = self.url(body)
+        url = 
+
+f"{self.host}/api/v1/movie/screen/list?pack={bba[0]}&signature={bba[1]}"
+        data = self.fetch(url, headers=self.header()).json()['data']['list']
+        for item in data:
+            list.append(self.voides(item))
+        result
+
+["list"] = list
+        result["page"] = pg
+        result["pagecount"] = 9999
+        result["limit"] = 90
+        result["total"] = 999999
+        return result
+
+    def detailContent(self, ids):
+        body = {"id": ids[0]}
+        bba = 
+
+self.url(body)
+        url = f'{self.host}/api/v1/movie/detail?pack={bba[0]}&signature={bba[1]}'
+        data = self.fetch(url, headers=self.header()).json()['data']
+        video = {'vod_name': data.get('name'), 'type_name': data.get
+
+('type_name'), 'vod_year': data.get('year'),
+                 'vod_area': data.get('area'), 'vod_remarks': data.get('dynami'), 'vod_content': data.get('content')}
+        play = []
+        names = []
+        tasks = []
+        for itt in 
+
+data["play_from"]:
+            name = itt["name"]
+            a = []
+            if len(itt["list"]) > 0:
+                names.append(name)
+                play.append(self.playeach(itt['list']))
+            else:
+                
+
+tasks.append({"movie_id": ids[0], "from_code": itt["code"]})
+                names.append(name)
+        if tasks:
+            with ThreadPoolExecutor(max_workers=len(tasks)) as executor:
+                results = executor.map
+
+(self.playlist, tasks)
+                for result in results:
+                    if result:
+                        play.append(result)
+                    else:
+                        play.append("")
+        video["vod_play_from"] = 
+
+"$$$".join(names)
+        video["vod_play_url"] = "$$$".join(play)
+        result = {"list": [video]}
+        return result
+
+    def searchContent(self, key, quick, pg=1):
+        body = {"keyword": key, "sort": "", "type_id": "0", 
+
+"page": str(pg), "pageSize": "10",
+                "res_type": "by_movie_name"}
+        bba = self.url(body)
+        url = f"{self.host}/api/v1/movie/search?pack={bba[0]}&signature={bba[1]}"
+        data = self.fetch(url, 
+
+headers=self.header()).json()['data'].get('list')
+        videos = []
+        for it in data:
+            try:
+                videos.append(self.voides(it))
+            except Exception as e:
+                continue
+        result = 
+
+{"list": videos, "page": pg}
+        return result
+
+    def playerContent(self, flag, id, vipFlags):
+        url = id
+        if not re.search(r"\.m3u8|\.mp4", url):
+            try:
+                data = json.loads(b64decode(id.encode
+
+('utf-8')).decode('utf-8'))
+                bba = self.url(data)
+                data2 = self.fetch(f"{self.host}/api/v1/movie_addr/parse_url?pack={bba[0]}&signature={bba[1]}",
+                                   headers=self.header
+
+()).json()['data']
+                url = data2.get('play_url') or data2.get('download_url')
+            except Exception as e:
+                pass
+        if re.search(r'\.jpg|\.png|\.jpeg', url):
+            url = self.Mproxy(url)
+      
+
+  result = {}
+        result["parse"] = 0
+        result["url"] = url
+        result["header"] = {'user-agent': 'okhttp/4.9.2'}
+        return result
+
+    def localProxy(self, param):
+        return self.Mlocal(param)
+
+    def Mproxy(self, 
+
+url):
+        return self.getProxyUrl() + "&url=" + b64encode(url.encode('utf-8')).decode('utf-8') + "&type=m3u8"
+
+    def Mlocal(self, param,header=None):
+        url = self.d64(param["url"])
+        ydata = self.fetch(url, 
+
+headers=header, allow_redirects=False)
+        data = ydata.content.decode('utf-8')
+        if ydata.headers.get('Location'):
+            url = ydata.headers['Location']
+            data = self.fetch(url, headers=header).content.decode
+
+('utf-8')
+        parsed_url = urlparse(url)
+        durl = parsed_url.scheme + "://" + parsed_url.netloc
+        lines = data.strip().split('\n')
+        for index, string in enumerate(lines):
+            if '#EXT' not in string and 
+
+'http' not in string:
+                last_slash_index = string.rfind('/')
+                lpath = string[:last_slash_index + 1]
+                lines[index] = durl + ('' if lpath.startswith('/') else '/') + lpath
+        data = 
+
+'\n'.join(lines)
+        return [200, "application/vnd.apple.mpegur", data]
+
+    def device_id(self):
+        characters = string.ascii_lowercase + string.digits
+        random_string = ''.join(random.choices(characters, k=32))
+        
+
+return random_string
+
+    def gethost(self):
+        try:
+            url = 'https://dns.alidns.com/dns-query'
+            headers = {
+                'User-Agent': 'okhttp/4.9.2',
+                'Accept': 'application/dns-message'
+        
+
+    }
+            params = {
+                'dns': 'AAABAAABAAAAAAAACWJmbTExYXM5ZgdmdXFpeXVuAmNuAAAcAAE'
+            }
+            response = self.fetch(url, headers=headers, params=params)
+            host=self.parse_dns_name
+
+(response.content, 12)
+            return f"https://{host}"
+        except:
+            return "https://rebozj.pro"
+
+    def parse_dns_name(self, data, offset):
+        parts = []
+        while True:
+            length = data[offset]
+        
+
+    if length == 0:
+                break
+            offset += 1
+            parts.append(data[offset:offset + length].decode('utf-8'))
+            offset += length
+        return '.'.join(parts)
+
+    def header(self):
+        headers = {
+  
+
+          'User-Agent': 'Android',
+            'Accept': 'application/prs.55App.v2+json',
+            'timestamp': str(int(time.time())),
+            'x-client-setting': '{"pure-mode":0}',
+            'x-client-uuid': '{"device_id":' + 
+
+self.device + '}, "type":1,"brand":"Redmi", "model":"M2012K10C", "system_version":30, "sdk_version":"3.1.0.7"}',
+            'x-client-version': '3096 '
+        }
+        return headers
+
+    def url(self, id=None):
+        if not id:
+      
+
+      id = {}
+        id["timestamp"] = str(int(time.time()))
+        public_key = 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA02F/kPg5A2NX4qZ5JSns+bjhVMCC6JbTiTKpbgNgiXU
+
++Kkorg6Dj76gS68gB8llhbUKCXjIdygnHPrxVHWfzmzisq9P9awmXBkCk74Skglx2LKHa/mNz9ivg6YzQ5pQFUEWS0DfomGBXVtqvBlOXMCRxp69oWaMsnfjnBV+0J7vHbXzUIkqBLdXSNfM9Ag5qdRDrJC3CqB65EJ3ARWVzZTTcXSdMW9i3qzEZPawPNPe5yPYbMZIoXLcrqvEZnRK1oak67/ihf7iwPJqdc
+
++68ZYEmmdqwunOvRdjq89fQMVelmqcRD9RYe08v+xDxG9Co9z7hcXGTsUquMxkh29uNawIDAQAB'
+        encrypted_text = json.dumps(id)
+        public_key = RSA.import_key(b64decode(public_key))
+        cipher = PKCS1_v1_5.new(public_key)
+        
+
+encrypted_message = cipher.encrypt(encrypted_text.encode('utf-8'))
+        encrypted_message_base64 = b64encode(encrypted_message).decode('utf-8')
+        result = encrypted_message_base64.replace('+', '-').replace('/', '_').replace
+
+('=', '')
+        key = '635a580fcb5dc6e60caa39c31a7bde48'
+        sign = hmac.new(key.encode(), result.encode(), hashlib.md5).hexdigest()
+        return result, sign
+
+    def playlist(self, body):
+        try:
+            bba = self.url
+
+(body)
+            url = f'{self.host}/api/v1/movie_addr/list?pack={bba[0]}&signature={bba[1]}'
+            data = self.fetch(url, headers=self.header()).json()['data']
+            return self.playeach(data)
+        except Exception:
+    
+
+        return []
+
+    def playeach(self, data):
+        play_urls = []
+        for it in data:
+            if re.search(r"mp4|m3u8", it["play_url"]):
+                play_urls.append(f"{it['episode_name']}${it['play_url']}")
+            
+
+else:
+                vd={"from_code": it['from_code'], "play_url": it['play_url'], "episode_id": it['episode_id'], "type": "play"}
+                play_urls.append(
+                    f"{it['episode_name']}${b64encode(json.dumps
+
+(vd).encode('utf-8')).decode('utf-8')}"
+                )
+        return '#'.join(play_urls)
+
+    def voides(self, item):
+        if item['name'] or item['title']:
+            voide = {
+                "vod_id": item.get('id') or item.get
+
+('click'),
+                'vod_name': item.get('name') or item.get('title'),
+                'vod_pic': item.get('cover') or item.get('image'),
+                'vod_year': item.get('year') or item.get('label'),
+                
+
+'vod_remarks': item.get('dynamic') or item.get('sub_title')
+            }
+            return voide
+
+    def aes(self, text):
+        text = text.replace('-', '+').replace('_', '/') + '=='
+        key = b"e6d5de5fcc51f53d"
+        iv = 
+
+b"2f13eef7dfc6c613"
+        cipher = AES.new(key, AES.MODE_CBC, iv)
+        pt = unpad(cipher.decrypt(b64decode(text)), AES.block_size).decode("utf-8")
+        return json.loads(pt)
