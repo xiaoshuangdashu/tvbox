@@ -4,7 +4,7 @@ muban.mxpro.二级.desc = '.module-info-item:eq(-1)&&Text;;;.module-info-item-co
 var rule = {
     title: '555影视[飞]',
     模板: 'mxpro',
-    host: 'https://www.5p6t0j0t8t1.shop',
+    host: 'https://www.555dy.fun',
    homeUrl:'/api.php/app/index_video',
 	// url: '/api.php/app/video?tid=fyclass&class=&area=&lang=&year=&limit=20&pg=fypage',
 	url: '/api.php/app/video?tid=fyclassfyfilter&limit=20&pg=fypage',
